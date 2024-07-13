@@ -1,19 +1,19 @@
 [
     {
         "chainId": 324,
-        "address": "0x06662147240414cc0dc25e6414100750d346bc44",
-        "name": "Flashdash",
-        "symbol": "FLASHDASH",
+        "address": "0x0231b3de40b6b3bdd28dcef037f1b7a3fcf5a95a",
+        "name": "Zynergy",
+        "symbol": "ZYN",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/33274/thumb/logo200.png?1701329106"
+        "logoURI": "https://assets.coingecko.com/coins/images/29674/thumb/logo_200px.png?1696528608"
     },
     {
         "chainId": 324,
-        "address": "0x7b3e1236c39ddd2e61cf6da6ac6d11193238ccb0",
-        "name": "zkEra Finance",
-        "symbol": "ZKE",
+        "address": "0xf6d9a093a1c69a152d87e269a7d909e9d76b1815",
+        "name": "Superlauncher",
+        "symbol": "LAUNCH",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/33928/thumb/token_png.png?1715327053"
+        "logoURI": "https://assets.coingecko.com/coins/images/14817/thumb/SL-V3-1024.png?1696514485"
     },
     {
         "chainId": 324,
@@ -25,51 +25,11 @@
     },
     {
         "chainId": 324,
-        "address": "0xd0ea21ba66b67be636de1ec4bd9696eb8c61e9aa",
-        "name": "Onchain Trade",
-        "symbol": "OT",
+        "address": "0x3b925184c17b4648da212229a2fde6a8031462ee",
+        "name": "Dudiez Meme Token",
+        "symbol": "DUDIEZ",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/29668/thumb/Group_1981.png?1696528603"
-    },
-    {
-        "chainId": 324,
-        "address": "0x94466dcfe241db963af1bc9741a94daa87ab2169",
-        "name": "zkLotto",
-        "symbol": "ZKLOTTO",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/29694/thumb/logo-sm.png?1696528627"
-    },
-    {
-        "chainId": 324,
-        "address": "0x144b83555d8a3119b0a69a7bc2f0a0388308fee3",
-        "name": "AutoAir AI",
-        "symbol": "AAI",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/36165/thumb/AutoAir_AI_-_200x200.png?1712108994"
-    },
-    {
-        "chainId": 324,
-        "address": "0xecd9f240ed3895c77db676004328dd1d246f33c9",
-        "name": "Era Name Service",
-        "symbol": "ERA",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/30536/thumb/era.jpg?1696529409"
-    },
-    {
-        "chainId": 324,
-        "address": "0x71fd7dfa7db7094e0f857ad3040f1afef76fef85",
-        "name": "Bullets",
-        "symbol": "BLT",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/30475/thumb/Logo_BLT_Token_%28200x200%29.png?1696529362"
-    },
-    {
-        "chainId": 324,
-        "address": "0x3beff5cc75f04e3717676dae3eeac8f57a8ca493",
-        "name": "Basmati",
-        "symbol": "BSMTI",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/37412/thumb/1000010075.jpg?1714373910"
+        "logoURI": "https://assets.coingecko.com/coins/images/36310/thumb/dudProfile.jpg?1711090369"
     },
     {
         "chainId": 324,
@@ -81,27 +41,83 @@
     },
     {
         "chainId": 324,
-        "address": "0x31c2c031fdc9d33e974f327ab0d9883eae06ca4a",
-        "name": "zkSwap Finance",
-        "symbol": "ZF",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/31633/thumb/zf.png?1696530449"
+        "address": "0xfc7e56298657b002b3e656400e746b7212912757",
+        "name": "zkUSD",
+        "symbol": "ZKUSD",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/31553/thumb/goal3.jpeg?1696530365"
     },
     {
         "chainId": 324,
-        "address": "0xcdb7d260c107499c80b4b748e8331c64595972a1",
-        "name": "Karat",
-        "symbol": "KAT",
+        "address": "0xd0ea21ba66b67be636de1ec4bd9696eb8c61e9aa",
+        "name": "Onchain Trade",
+        "symbol": "OT",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/31834/thumb/coin1.png?1696530647"
+        "logoURI": "https://assets.coingecko.com/coins/images/29668/thumb/Group_1981.png?1696528603"
     },
     {
         "chainId": 324,
-        "address": "0xed4040fd47629e7c8fbb7da76bb50b3e7695f0f2",
-        "name": "Holdstation",
-        "symbol": "HOLD",
+        "address": "0xc65364c35d8e2aaba17d00e468c29576f3ec105c",
+        "name": "Beany",
+        "symbol": "BEANY",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/32726/thumb/HOLD.png?1699018663"
+        "logoURI": "https://assets.coingecko.com/coins/images/35823/thumb/Design_sans_titre_%2843%29.png?1709886949"
+    },
+    {
+        "chainId": 324,
+        "address": "0xc8ec5b0627c794de0e4ea5d97ad9a556b361d243",
+        "name": "Whisper",
+        "symbol": "WISP",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/29650/thumb/wisp_200.png?1696528586"
+    },
+    {
+        "chainId": 324,
+        "address": "0x8aaaf6e6167825829ab29f260f246afe742fb243",
+        "name": "zkCULT",
+        "symbol": "ZCULT",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/29807/thumb/zkCULT_Logo_200x200.jpg?1696528736"
+    },
+    {
+        "chainId": 324,
+        "address": "0x533b5f887383196c6bc642f83338a69596465307",
+        "name": "Snark Launch",
+        "symbol": "SNRK",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/29957/thumb/IMG_20230422_160407_790.jpg?1696528883"
+    },
+    {
+        "chainId": 324,
+        "address": "0x7ecf006f7c45149b457e9116392279cc8a630f14",
+        "name": "zkSwap",
+        "symbol": "ZKSP",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/30582/thumb/zkswap.jpeg?1696529446"
+    },
+    {
+        "chainId": 324,
+        "address": "0x90eea899185105d583d04b7bdbfb672fce902a53",
+        "name": "ZKPepe",
+        "symbol": "ZKPEPE",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/29870/thumb/241.png?1696528795"
+    },
+    {
+        "chainId": 324,
+        "address": "0xc6dac3a53d5d6de9d1d05aa6e28b8e9e41722601",
+        "name": "Wrapped LIBERTAS OMNIBUS",
+        "symbol": "LIBERTAS",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/35181/thumb/libertas.png?1707796268"
+    },
+    {
+        "chainId": 324,
+        "address": "0x60e7fe7ae4461b535bb9eb40c20424c7c61063d0",
+        "name": "Zeekwifhat",
+        "symbol": "ZWIF",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/36371/thumb/zeekCG.png?1711338998"
     },
     {
         "chainId": 324,
@@ -113,19 +129,11 @@
     },
     {
         "chainId": 324,
-        "address": "0x5165ec33b491d7b67260b3143f96bb4ac4736398",
-        "name": "Long",
-        "symbol": "LONG",
+        "address": "0x160e07e42adbc1fce92d505b579bcd8a3fbea77d",
+        "name": "Dracula Fi",
+        "symbol": "FANG",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/36497/thumb/Logo_Long_square.png?1717541650"
-    },
-    {
-        "chainId": 324,
-        "address": "0x90eea899185105d583d04b7bdbfb672fce902a53",
-        "name": "ZKPepe",
-        "symbol": "ZKPEPE",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/29870/thumb/241.png?1696528795"
+        "logoURI": "https://assets.coingecko.com/coins/images/31028/thumb/fang.png?1696529864"
     },
     {
         "chainId": 324,
@@ -153,203 +161,11 @@
     },
     {
         "chainId": 324,
-        "address": "0x959ab3394246669914bddeaeb50f8ac85648615e",
-        "name": "zkLaunchpad",
-        "symbol": "ZKPAD",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/29720/thumb/zkpad.jpeg?1696528650"
-    },
-    {
-        "chainId": 324,
-        "address": "0x2b64237277c605d07f17b96f9627712340c32981",
-        "name": "GemSwap",
-        "symbol": "ZGEM",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/29630/thumb/zgem.png?1696528568"
-    },
-    {
-        "chainId": 324,
-        "address": "0xc65364c35d8e2aaba17d00e468c29576f3ec105c",
-        "name": "Beany",
-        "symbol": "BEANY",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/35823/thumb/Design_sans_titre_%2843%29.png?1709886949"
-    },
-    {
-        "chainId": 324,
-        "address": "0x160e07e42adbc1fce92d505b579bcd8a3fbea77d",
-        "name": "Dracula Fi",
-        "symbol": "FANG",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/31028/thumb/fang.png?1696529864"
-    },
-    {
-        "chainId": 324,
-        "address": "0x7d3cfc3e9eee2aa5feff52d6193a0dbb08492279",
-        "name": "Tektias",
-        "symbol": "TEKTIAS",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/35685/thumb/T.jpg?1709527547"
-    },
-    {
-        "chainId": 324,
-        "address": "0x533b5f887383196c6bc642f83338a69596465307",
-        "name": "Snark Launch",
-        "symbol": "SNRK",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/29957/thumb/IMG_20230422_160407_790.jpg?1696528883"
-    },
-    {
-        "chainId": 324,
-        "address": "0xbde632e042bd6e7439856461b87b89d60bc07417",
-        "name": "WalkMining Governance",
-        "symbol": "WKG",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/38633/thumb/symbol_wkm_200.png?1718172340"
-    },
-    {
-        "chainId": 324,
-        "address": "0x60e7fe7ae4461b535bb9eb40c20424c7c61063d0",
-        "name": "Zeekwifhat",
-        "symbol": "ZWIF",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/36371/thumb/zeekCG.png?1711338998"
-    },
-    {
-        "chainId": 324,
-        "address": "0xc8ec5b0627c794de0e4ea5d97ad9a556b361d243",
-        "name": "Whisper",
-        "symbol": "WISP",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/29650/thumb/wisp_200.png?1696528586"
-    },
-    {
-        "chainId": 324,
-        "address": "0x240f765af2273b0cab6caff2880d6d8f8b285fa4",
-        "name": "eZKalibur",
-        "symbol": "SWORD",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/30722/thumb/leaf.png?1696529593"
-    },
-    {
-        "chainId": 324,
-        "address": "0x3a34fa9a1288597ad6c1da709f001d37fef8b19e",
-        "name": "SyncDex",
-        "symbol": "SYDX",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/29746/thumb/Logo200x200.png?1696528678"
-    },
-    {
-        "chainId": 324,
-        "address": "0x0231b3de40b6b3bdd28dcef037f1b7a3fcf5a95a",
-        "name": "Zynergy",
-        "symbol": "ZYN",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/29674/thumb/logo_200px.png?1696528608"
-    },
-    {
-        "chainId": 324,
-        "address": "0x5fd37f12029511f17c1898477f7fb685cf6c0c0f",
-        "name": "KZ Token",
-        "symbol": "KZ",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/38802/thumb/KZ_Token_200x200.png?1718941524"
-    },
-    {
-        "chainId": 324,
-        "address": "0xf6d9a093a1c69a152d87e269a7d909e9d76b1815",
-        "name": "Superlauncher",
-        "symbol": "LAUNCH",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/14817/thumb/SL-V3-1024.png?1696514485"
-    },
-    {
-        "chainId": 324,
-        "address": "0xc3a3aa99b80845d22cc41dea3bdb9b2a9ebe199a",
-        "name": "ZKDX",
-        "symbol": "ZKDX",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/34802/thumb/logo-png.png?1706092934"
-    },
-    {
-        "chainId": 324,
-        "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
-        "name": "zkSync Bridged USDC  zkSync ",
-        "symbol": "USDC",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/35262/thumb/USDC_Icon.png?1708008941"
-    },
-    {
-        "chainId": 324,
-        "address": "0x7ecf006f7c45149b457e9116392279cc8a630f14",
-        "name": "zkSwap",
-        "symbol": "ZKSP",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/30582/thumb/zkswap.jpeg?1696529446"
-    },
-    {
-        "chainId": 324,
-        "address": "0x8aaaf6e6167825829ab29f260f246afe742fb243",
-        "name": "zkCULT",
-        "symbol": "ZCULT",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/29807/thumb/zkCULT_Logo_200x200.jpg?1696528736"
-    },
-    {
-        "chainId": 324,
-        "address": "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
-        "name": "ZKsync",
-        "symbol": "ZK",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/38043/thumb/ZKTokenBlack.png?1718614502"
-    },
-    {
-        "chainId": 324,
-        "address": "0x47ef4a5641992a72cfd57b9406c9d9cefee8e0c4",
-        "name": "zkApes Token",
-        "symbol": "ZAT",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/30316/thumb/zkApes.png?1696529217"
-    },
-    {
-        "chainId": 324,
         "address": "0x3a4fea0cf14c18c21975ff08efe11c08cccefe10",
         "name": "Orbitpad",
         "symbol": "OPAD",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/33113/thumb/logo200px.png?1700731139"
-    },
-    {
-        "chainId": 324,
-        "address": "0x10d967f46b06580c4a87b05c78f04e4df25c0db0",
-        "name": "Holdstation Utility GOLD",
-        "symbol": "UGOLD",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/32647/thumb/uGOLD.png?1698893439"
-    },
-    {
-        "chainId": 324,
-        "address": "0x5756a28e2aae01f600fc2c01358395f5c1f8ad3a",
-        "name": "veSync",
-        "symbol": "VS",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/30611/thumb/veSync-Logo-PNG-200X200.png?1696529480"
-    },
-    {
-        "chainId": 324,
-        "address": "0xaf08a9d918f16332f22cf8dc9abe9d9e14ddcbc2",
-        "name": "Holdstation USDC",
-        "symbol": "HSUSDC",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/32646/thumb/hsUSDC.png?1698893340"
-    },
-    {
-        "chainId": 324,
-        "address": "0xfc7e56298657b002b3e656400e746b7212912757",
-        "name": "zkUSD",
-        "symbol": "ZKUSD",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/31553/thumb/goal3.jpeg?1696530365"
     },
     {
         "chainId": 324,
@@ -361,11 +177,11 @@
     },
     {
         "chainId": 324,
-        "address": "0x941fc398d9faebdd9f311011541045a1d66c748e",
-        "name": "Nop App",
-        "symbol": "NOP",
+        "address": "0xecd9f240ed3895c77db676004328dd1d246f33c9",
+        "name": "Era Name Service",
+        "symbol": "ERA",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/36376/thumb/191.png?1711342125"
+        "logoURI": "https://assets.coingecko.com/coins/images/30536/thumb/era.jpg?1696529409"
     },
     {
         "chainId": 324,
@@ -377,11 +193,203 @@
     },
     {
         "chainId": 324,
+        "address": "0x7b3e1236c39ddd2e61cf6da6ac6d11193238ccb0",
+        "name": "zkEra Finance",
+        "symbol": "ZKE",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/33928/thumb/token_png.png?1715327053"
+    },
+    {
+        "chainId": 324,
+        "address": "0x959ab3394246669914bddeaeb50f8ac85648615e",
+        "name": "zkLaunchpad",
+        "symbol": "ZKPAD",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/29720/thumb/zkpad.jpeg?1696528650"
+    },
+    {
+        "chainId": 324,
+        "address": "0x7d3cfc3e9eee2aa5feff52d6193a0dbb08492279",
+        "name": "Tektias",
+        "symbol": "TEKTIAS",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/35685/thumb/T.jpg?1709527547"
+    },
+    {
+        "chainId": 324,
+        "address": "0x144b83555d8a3119b0a69a7bc2f0a0388308fee3",
+        "name": "AutoAir AI",
+        "symbol": "AAI",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/36165/thumb/AutoAir_AI_-_200x200.png?1712108994"
+    },
+    {
+        "chainId": 324,
+        "address": "0x3a34fa9a1288597ad6c1da709f001d37fef8b19e",
+        "name": "SyncDex",
+        "symbol": "SYDX",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/29746/thumb/Logo200x200.png?1696528678"
+    },
+    {
+        "chainId": 324,
+        "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+        "name": "zkSync Bridged USDC  zkSync ",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/35262/thumb/USDC_Icon.png?1708008941"
+    },
+    {
+        "chainId": 324,
+        "address": "0xed4040fd47629e7c8fbb7da76bb50b3e7695f0f2",
+        "name": "Holdstation",
+        "symbol": "HOLD",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/32726/thumb/HOLD.png?1699018663"
+    },
+    {
+        "chainId": 324,
+        "address": "0xbde632e042bd6e7439856461b87b89d60bc07417",
+        "name": "WalkMining Governance",
+        "symbol": "WKG",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/38633/thumb/symbol_wkm_200.png?1718172340"
+    },
+    {
+        "chainId": 324,
+        "address": "0xa4e4d9984366e74713737cb5d646bba0b7e070a4",
+        "name": "Waifu by Velocore",
+        "symbol": "WAIFU",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/30075/thumb/waifu-200x.png?1696529000"
+    },
+    {
+        "chainId": 324,
+        "address": "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
+        "name": "ZKsync",
+        "symbol": "ZK",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/38043/thumb/ZKTokenBlack.png?1718614502"
+    },
+    {
+        "chainId": 324,
+        "address": "0x5165ec33b491d7b67260b3143f96bb4ac4736398",
+        "name": "Long",
+        "symbol": "LONG",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/36497/thumb/Logo_Long_square.png?1717541650"
+    },
+    {
+        "chainId": 324,
+        "address": "0x31c2c031fdc9d33e974f327ab0d9883eae06ca4a",
+        "name": "zkSwap Finance",
+        "symbol": "ZF",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/31633/thumb/zf.png?1696530449"
+    },
+    {
+        "chainId": 324,
+        "address": "0x5756a28e2aae01f600fc2c01358395f5c1f8ad3a",
+        "name": "veSync",
+        "symbol": "VS",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/30611/thumb/veSync-Logo-PNG-200X200.png?1696529480"
+    },
+    {
+        "chainId": 324,
+        "address": "0x240f765af2273b0cab6caff2880d6d8f8b285fa4",
+        "name": "eZKalibur",
+        "symbol": "SWORD",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/30722/thumb/leaf.png?1696529593"
+    },
+    {
+        "chainId": 324,
+        "address": "0xc3a3aa99b80845d22cc41dea3bdb9b2a9ebe199a",
+        "name": "ZKDX",
+        "symbol": "ZKDX",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/34802/thumb/logo-png.png?1706092934"
+    },
+    {
+        "chainId": 324,
+        "address": "0xaf08a9d918f16332f22cf8dc9abe9d9e14ddcbc2",
+        "name": "Holdstation USDC",
+        "symbol": "HSUSDC",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/32646/thumb/hsUSDC.png?1698893340"
+    },
+    {
+        "chainId": 324,
+        "address": "0x06662147240414cc0dc25e6414100750d346bc44",
+        "name": "Flashdash",
+        "symbol": "FLASHDASH",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/33274/thumb/logo200.png?1701329106"
+    },
+    {
+        "chainId": 324,
+        "address": "0x10d967f46b06580c4a87b05c78f04e4df25c0db0",
+        "name": "Holdstation Utility GOLD",
+        "symbol": "UGOLD",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/32647/thumb/uGOLD.png?1698893439"
+    },
+    {
+        "chainId": 324,
+        "address": "0x941fc398d9faebdd9f311011541045a1d66c748e",
+        "name": "Nop App",
+        "symbol": "NOP",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/36376/thumb/191.png?1711342125"
+    },
+    {
+        "chainId": 324,
+        "address": "0x5fd37f12029511f17c1898477f7fb685cf6c0c0f",
+        "name": "KZ Token",
+        "symbol": "KZ",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/38802/thumb/KZ_Token_200x200.png?1718941524"
+    },
+    {
+        "chainId": 324,
+        "address": "0x3beff5cc75f04e3717676dae3eeac8f57a8ca493",
+        "name": "Basmati",
+        "symbol": "BSMTI",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/37412/thumb/1000010075.jpg?1714373910"
+    },
+    {
+        "chainId": 324,
+        "address": "0xcdb7d260c107499c80b4b748e8331c64595972a1",
+        "name": "Karat",
+        "symbol": "KAT",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/31834/thumb/coin1.png?1696530647"
+    },
+    {
+        "chainId": 324,
+        "address": "0x94466dcfe241db963af1bc9741a94daa87ab2169",
+        "name": "zkLotto",
+        "symbol": "ZKLOTTO",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/29694/thumb/logo-sm.png?1696528627"
+    },
+    {
+        "chainId": 324,
         "address": "0x9db6bf8b0215a02bea9bef28a92d829fd008d480",
         "name": "Cheems Token",
         "symbol": "CHEEMS",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/30376/thumb/Hg4_Lhbg_400x400.jpg?1696529270"
+    },
+    {
+        "chainId": 324,
+        "address": "0x71fd7dfa7db7094e0f857ad3040f1afef76fef85",
+        "name": "Bullets",
+        "symbol": "BLT",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/30475/thumb/Logo_BLT_Token_%28200x200%29.png?1696529362"
     },
     {
         "chainId": 324,
@@ -408,11 +416,19 @@
     },
     {
         "chainId": 324,
-        "address": "0xc6dac3a53d5d6de9d1d05aa6e28b8e9e41722601",
-        "name": "Wrapped LIBERTAS OMNIBUS",
-        "symbol": "LIBERTAS",
+        "address": "0x2b64237277c605d07f17b96f9627712340c32981",
+        "name": "GemSwap",
+        "symbol": "ZGEM",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/35181/thumb/libertas.png?1707796268"
+        "logoURI": "https://assets.coingecko.com/coins/images/29630/thumb/zgem.png?1696528568"
+    },
+    {
+        "chainId": 324,
+        "address": "0x47ef4a5641992a72cfd57b9406c9d9cefee8e0c4",
+        "name": "zkApes Token",
+        "symbol": "ZAT",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/30316/thumb/zkApes.png?1696529217"
     },
     {
         "chainId": 324,
@@ -432,11 +448,19 @@
     },
     {
         "chainId": 324,
-        "address": "0x2141d7fe06a1d69c016fc638ba75b6ef92fa1435",
-        "name": "zkSync id",
-        "symbol": "ZKID",
+        "address": "0x79db8c67d0c33203da4efb58f7d325e1e0d4d692",
+        "name": "Zeek Coin",
+        "symbol": "MEOW",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/30115/thumb/logo.png?1696529037"
+        "logoURI": "https://assets.coingecko.com/coins/images/34101/thumb/Zeek_200_by_200.png?1714928523"
+    },
+    {
+        "chainId": 324,
+        "address": "0x99bbe51be7cce6c8b84883148fd3d12ace5787f2",
+        "name": "Velocore",
+        "symbol": "VC",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/29702/thumb/VELOCORE-CIRCLE-LOGO.png?1696528634"
     },
     {
         "chainId": 324,
@@ -453,6 +477,14 @@
         "symbol": "ZKPEPE",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/33196/thumb/logo.jpg?1700972509"
+    },
+    {
+        "chainId": 324,
+        "address": "0x2141d7fe06a1d69c016fc638ba75b6ef92fa1435",
+        "name": "zkSync id",
+        "symbol": "ZKID",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/30115/thumb/logo.png?1696529037"
     },
     {
         "chainId": 324,
@@ -749,6 +781,14 @@
         "symbol": "ZKGROK",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/33806/thumb/zkgrok_200_200.png?1703117664"
+    },
+    {
+        "chainId": 324,
+        "address": "0x703b52f2b28febcb60e1372858af5b18849fe867",
+        "name": "Wrapped stETH",
+        "symbol": "WSTETH",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/18834/thumb/wstETH.png?1696518295"
     },
     {
         "chainId": 324,

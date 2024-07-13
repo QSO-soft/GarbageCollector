@@ -6,11 +6,10 @@
   },
   "dependencies": {
     "@inquirer/select": "^2.3.1",
-    "@types/cli-progress": "^3.11.5",
-    "@types/node": "^20.11.16",
     "axios": "^1.6.1",
     "chalk": "^4.1.2",
     "cli-progress": "^3.12.0",
+    "csvtojson": "^2.0.10",
     "dotenv": "^16.4.1",
     "ethers": "^6.8.1",
     "https-proxy-agent": "^7.0.5",
@@ -20,6 +19,8 @@
   },
   "devDependencies": {
     "@typechain/ethers-v6": "^0.5.1",
+    "@types/cli-progress": "^3.11.5",
+    "@types/node": "^20.11.16",
     "typechain": "^8.3.2"
   }
 }

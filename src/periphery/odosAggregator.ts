@@ -238,6 +238,7 @@ class OdosAggregator {
             adjustedTx.gasLimit = (BigInt(adjustedTx.gasLimit) * 11n) / 10n
         }
         delete adjustedTx?.gas
+        // todo: why multiplier constant
         let gasPriceMultiplier = this.networkName == 'Ethereum' || this.networkName == 'Polygon' || this.networkName == 'Avalanche' ? 1.1 : 1
         let swapHash = await sendTx(this.signer, adjustedTx, {price: gasPriceMultiplier, limit: 1}, true)
         console.log(

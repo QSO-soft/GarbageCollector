@@ -8,6 +8,7 @@ import {goodGwei, shuffleWallets, sleepBetweenAccs, sleepBetweenActions} from '.
 import {NativeSender} from './src/core/nativeSender'
 import {waitGwei} from './src/periphery/web3Client'
 import {RelayBridge} from './src/periphery/relayBridge'
+import {createCheckerCsv} from './src/utils/save-result'
 
 async function main() {
     let scenario = await menu.chooseTask()
@@ -20,6 +21,8 @@ async function main() {
 
     switch (scenario) {
         case 'Balance cheker':
+            createCheckerCsv()
+
             keysAndAddresses = await importAndValidatePrivateData('./privates.txt', false)
             if (shuffleWallets) {
                 keysAndAddresses = RandomHelpers.shuffleArray(keysAndAddresses)
@@ -32,6 +35,7 @@ async function main() {
                 garbageCollector.connect(signer)
                 await garbageCollector.getNonZeroTokens()
             }
+            console.log(c.green('Checker results saved to resulte/balance-checker.csv'))
             break
         case 'Garbage collector':
             keysAndAddresses = await importAndValidatePrivateData('./privates.txt', false)

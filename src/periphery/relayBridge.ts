@@ -44,6 +44,7 @@ class RelayBridge extends RelayBridgeConfig {
                 )
                 let bridgeFee = BigInt(quoteBridgeResp.data?.fees.relayer)
                 let valueToBridge = this.deductFee ? value - bridgeFee : value
+                // TODO: there is v2 api already
                 const bridgeResp = await axios.post(
                     'https://api.relay.link/execute/bridge',
                     {
@@ -102,6 +103,7 @@ class RelayBridge extends RelayBridgeConfig {
         for (let i = 0; i < networks.length; i++) {
             let fromNetwork = networks[i] as ChainName
             let toNetwork = this.toNetwork
+            // TODO: only eth available
             // since relay bridge is good only for eth, require that from user
             if (
                 chains[fromNetwork].currency.name.toLowerCase() != currency.toLowerCase() ||

@@ -1,5 +1,5 @@
 import {formatEther, formatUnits, Wallet} from 'ethers'
-import {DEV, GarbageCollectorConfig, sleepBetweenActions} from '../../config'
+import {DEV, GarbageCollectorConfig, minBalanceToSaveInCsv, sleepBetweenActions} from '../../config'
 import {c, defaultSleep, RandomHelpers, retry} from '../utils/helpers'
 import {ChainName, NotChainName, TokenlistResp} from '../utils/types'
 import {getBalance, Multicall, unwrap} from '../periphery/web3Client'
@@ -8,6 +8,7 @@ import {checkConnection, getNativeCoinPrice, getProvider, getTokenPrices} from '
 import {OdosAggregator} from '../periphery/odosAggregator'
 import {Sushiswap} from '../periphery/sushiswap'
 import {readFileSync, writeFileSync} from 'fs'
+import {saveBalanceCheckerDataToCSV} from '../utils/save-result'
 
 class GarbageCollector extends GarbageCollectorConfig {
     signer: Wallet
@@ -31,16 +32,16 @@ class GarbageCollector extends GarbageCollectorConfig {
         this.tokensToIgnore = this.tokensToIgnore.map((elem) => elem.toLowerCase().trim())
         this.chainsToExclude = this.chainsToExclude.map((elem) => elem.toLowerCase().trim()) as (ChainName | NotChainName)[]
         this.tokensToInclude.concat([
+            // TODO: why they are here, also not sure in all of them
             // tokens to check explicitly
             // Zksync
-            '0x28a487240e4d45cff4a2980d334cc933b7483842', // MATIC
-            '0x6A5279E99CA7786fb13F827Fc1Fb4F61684933d6', // AVAX
-            '0x45559297BdEDf453e172833AC7086f7D03f6690B', // ZKINU
-            '0x8d266fa745b7cf3856af0c778828473b8d33a149', // zkfloki
-            '0x5e38cb3e6c0faafaa5c32c482864fcef5a0660ad', // zkshib
-            '0x7400793aAd94C8CA801aa036357d10F5Fd0ce08f', // BNB
-
-            '0x2297aebd383787a160dd0d9f71508148769342e3', // BTCb in poly/bsc/...
+            // '0x28a487240e4d45cff4a2980d334cc933b7483842', // MATIC
+            // '0x6A5279E99CA7786fb13F827Fc1Fb4F61684933d6', // AVAX
+            // '0x45559297BdEDf453e172833AC7086f7D03f6690B', // ZKINU
+            // '0x8d266fa745b7cf3856af0c778828473b8d33a149', // zkfloki
+            // '0x5e38cb3e6c0faafaa5c32c482864fcef5a0660ad', // zkshib
+            // '0x7400793aAd94C8CA801aa036357d10F5Fd0ce08f', // BNB
+            // '0x2297aebd383787a160dd0d9f71508148769342e3', // BTCb in poly/bsc/...
 
             // scroll
             '0xb65ad8d81d1e4cb2975352338805af6e39ba8be8' // SCROLLY
@@ -172,6 +173,7 @@ class GarbageCollector extends GarbageCollectorConfig {
                 }
             }
         }
+
         let nonzeroTokenData = await Multicall.getTokenInfo(nonzeroTokens.map((elem) => elem.token))
         let nonzeroTokenList: {address: string; name: string; symbol: string; decimals: bigint; balance: bigint}[] = []
         // could be done better lol
@@ -223,6 +225,16 @@ class GarbageCollector extends GarbageCollectorConfig {
             let amountAndPriceOffset = 15 - amount.length - priceLength < 0 ? 0 : 15 - amount.length - priceLength
             let priceText = ' '.repeat(amountAndPriceOffset) + price
             console.log(c.blue.bold(`   ${nameText} ${symbolText} ${amount} ${priceText} USD`))
+
+            if (price !== '???' && +price > 0) {
+                await saveBalanceCheckerDataToCSV({
+                    data: {
+                        address: this.signer.address,
+                        network: networkName,
+                        [chains[networkName].currency.name]: price
+                    }
+                })
+            }
         }
         let networkValue = 0
         for (let nonzeroToken of nonzeroTokenList) {
@@ -238,12 +250,30 @@ class GarbageCollector extends GarbageCollectorConfig {
             let amountAndPriceOffset = 15 - amount.length - price.length < 0 ? 0 : 15 - amount.length - price.length
             let priceText = ' '.repeat(amountAndPriceOffset) + c.green(price)
             console.log(`   ${nameText} ${symbolText} ${amount} ${priceText} USD`)
+            if (price !== '???' && +price > 0) {
+                await saveBalanceCheckerDataToCSV({
+                    data: {
+                        address: this.signer.address,
+                        network: networkName,
+                        [nonzeroToken.symbol]: price
+                    }
+                })
+            }
             networkValue += parseFloat(price)
         }
         let networkValueText = `network value: ${networkValue.toFixed(2)} USD`
         // 71 -- whole paste's length built above
         let networkValueOffset = 71 - networkValueText.length < 0 ? 0 : 71 - networkValueText.length
         console.log(c.magenta.bold(' '.repeat(networkValueOffset) + networkValueText))
+        if (+networkValue > 0) {
+            await saveBalanceCheckerDataToCSV({
+                data: {
+                    address: this.signer.address,
+                    network: networkName,
+                    Total: networkValue
+                }
+            })
+        }
         this.nonzeroTokens[networkName] = nonzeroTokenList
     }
     async swapTokensToNativeForChain(networkName: ChainName) {

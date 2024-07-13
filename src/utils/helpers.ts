@@ -115,6 +115,7 @@ async function importPrivateData(path: string) {
     rl.on('line', (line) => {
         data.push(line.trim().split(','))
     })
+
     await once(rl, 'close')
     return data
 }

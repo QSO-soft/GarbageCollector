@@ -17,18 +17,18 @@
     },
     {
         "chainId": 204,
+        "address": "0x196ad5a70279fc112db4f8baf6f5022c9b1cf0a5",
+        "name": "LuigiSwap",
+        "symbol": "LUIGI",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/31802/thumb/luigi.png?1696530617"
+    },
+    {
+        "chainId": 204,
         "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea",
         "name": "Bridged Binance Peg Ethereum  opBNB ",
         "symbol": "ETH",
         "decimals": 18
-    },
-    {
-        "chainId": 204,
-        "address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3",
-        "name": "Bridged Tether  opBNB ",
-        "symbol": "USDT",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/32613/thumb/usdt_opbnb_bridged.png?1698734789"
     },
     {
         "chainId": 204,
@@ -40,11 +40,11 @@
     },
     {
         "chainId": 204,
-        "address": "0x196ad5a70279fc112db4f8baf6f5022c9b1cf0a5",
-        "name": "LuigiSwap",
-        "symbol": "LUIGI",
+        "address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3",
+        "name": "Bridged Tether  opBNB ",
+        "symbol": "USDT",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/31802/thumb/luigi.png?1696530617"
+        "logoURI": "https://assets.coingecko.com/coins/images/32613/thumb/usdt_opbnb_bridged.png?1698734789"
     },
     {
         "chainId": 204,
@@ -109,5 +109,13 @@
         "symbol": "ITP",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/28338/thumb/ITP_Logo_200.png?1696527344"
+    },
+    {
+        "chainId": 204,
+        "address": "0xfb62ae373aca027177d1c18ee0862817f9080d08",
+        "name": "My DeFi Pet",
+        "symbol": "DPET",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/15321/thumb/mydefi.PNG?1696514970"
     }
 ]

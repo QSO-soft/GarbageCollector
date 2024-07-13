@@ -1,11 +1,27 @@
 [
     {
         "chainId": 42220,
-        "address": "0x00400fcbf0816bebb94654259de7273f4a05c762",
-        "name": "PoofCash",
-        "symbol": "POOF",
+        "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+        "name": "Celo Dollar",
+        "symbol": "CUSD",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/18076/thumb/android-icon-192x192_%282%29.png?1696517583"
+        "logoURI": "https://assets.coingecko.com/coins/images/13161/thumb/icon-celo-dollar-color-1000-circle-cropped.png?1696512945"
+    },
+    {
+        "chainId": 42220,
+        "address": "0x73a210637f6f6b7005512677ba6b3c96bb4aa44b",
+        "name": "Mobius Money",
+        "symbol": "MOBI",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/18467/thumb/MOBI-200.png?1696517953"
+    },
+    {
+        "chainId": 42220,
+        "address": "0xd8763cba276a3738e6de85b4b3bf5fded6d6ca73",
+        "name": "Celo Euro",
+        "symbol": "CEUR",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/16756/thumb/CEUR.png?1696516329"
     },
     {
         "chainId": 42220,
@@ -25,83 +41,11 @@
     },
     {
         "chainId": 42220,
-        "address": "0x7ff62f59e3e89ea34163ea1458eebcc81177cfb6",
-        "name": "MENTO",
-        "symbol": "MENTO",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/38958/thumb/MENTO_TOKEN_icon_200.png?1719691251"
-    },
-    {
-        "chainId": 42220,
-        "address": "0x456a3d042c0dbd3db53d5489e98dfb038553b0d0",
-        "name": "Celo Kenyan Shilling",
-        "symbol": "CKES",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/38052/thumb/cKES_200x200.png?1716403445"
-    },
-    {
-        "chainId": 42220,
-        "address": "0xd8763cba276a3738e6de85b4b3bf5fded6d6ca73",
-        "name": "Celo Euro",
-        "symbol": "CEUR",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/16756/thumb/CEUR.png?1696516329"
-    },
-    {
-        "chainId": 42220,
         "address": "0x9802d866fde4563d088a6619f7cef82c0b991a55",
         "name": "Moola interest bearing CREAL",
         "symbol": "MCREAL",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/26214/thumb/asset_mcREAL.png?1696525299"
-    },
-    {
-        "chainId": 42220,
-        "address": "0xe273ad7ee11dcfaa87383ad5977ee1504ac07568",
-        "name": "mcEUR",
-        "symbol": "MCEUR",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/22345/thumb/1OY4GRnl_400x400.jpg?1696521688"
-    },
-    {
-        "chainId": 42220,
-        "address": "0xe8537a3d056da446677b9e9d6c5db704eaab4787",
-        "name": "Celo Real  cREAL ",
-        "symbol": "CREAL",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/27205/thumb/creal.png?1696526254"
-    },
-    {
-        "chainId": 42220,
-        "address": "0x74c0c58b99b68cf16a717279ac2d056a34ba2bfe",
-        "name": "ReSource Protocol",
-        "symbol": "SOURCE",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/20740/thumb/source.png?1696520138"
-    },
-    {
-        "chainId": 42220,
-        "address": "0x7d00cd74ff385c955ea3d79e47bf06bd7386387d",
-        "name": "mCELO",
-        "symbol": "MCELO",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/22346/thumb/1OY4GRnl_400x400_%281%29.jpg?1696521689"
-    },
-    {
-        "chainId": 42220,
-        "address": "0x471ece3750da237f93b8e339c536989b8978a438",
-        "name": "Celo",
-        "symbol": "CELO",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/11090/thumb/InjXBNx9_400x400.jpg?1696511031"
-    },
-    {
-        "chainId": 42220,
-        "address": "0x73a210637f6f6b7005512677ba6b3c96bb4aa44b",
-        "name": "Mobius Money",
-        "symbol": "MOBI",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/18467/thumb/MOBI-200.png?1696517953"
     },
     {
         "chainId": 42220,
@@ -113,11 +57,27 @@
     },
     {
         "chainId": 42220,
-        "address": "0xe685d21b7b0fc7a248a6a8e03b8db22d013aa2ee",
-        "name": "ImmortalDAO",
-        "symbol": "IMMO",
-        "decimals": 9,
-        "logoURI": "https://assets.coingecko.com/coins/images/22189/thumb/immortal_logo.png?1696521533"
+        "address": "0xe8537a3d056da446677b9e9d6c5db704eaab4787",
+        "name": "Celo Real  cREAL ",
+        "symbol": "CREAL",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/27205/thumb/creal.png?1696526254"
+    },
+    {
+        "chainId": 42220,
+        "address": "0x471ece3750da237f93b8e339c536989b8978a438",
+        "name": "Celo",
+        "symbol": "CELO",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/11090/thumb/InjXBNx9_400x400.jpg?1696511031"
+    },
+    {
+        "chainId": 42220,
+        "address": "0x456a3d042c0dbd3db53d5489e98dfb038553b0d0",
+        "name": "Celo Kenyan Shilling",
+        "symbol": "CKES",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/38052/thumb/cKES_200x200.png?1716403445"
     },
     {
         "chainId": 42220,
@@ -137,6 +97,38 @@
     },
     {
         "chainId": 42220,
+        "address": "0xe685d21b7b0fc7a248a6a8e03b8db22d013aa2ee",
+        "name": "ImmortalDAO",
+        "symbol": "IMMO",
+        "decimals": 9,
+        "logoURI": "https://assets.coingecko.com/coins/images/22189/thumb/immortal_logo.png?1696521533"
+    },
+    {
+        "chainId": 42220,
+        "address": "0x7d00cd74ff385c955ea3d79e47bf06bd7386387d",
+        "name": "mCELO",
+        "symbol": "MCELO",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/22346/thumb/1OY4GRnl_400x400_%281%29.jpg?1696521689"
+    },
+    {
+        "chainId": 42220,
+        "address": "0xe273ad7ee11dcfaa87383ad5977ee1504ac07568",
+        "name": "mcEUR",
+        "symbol": "MCEUR",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/22345/thumb/1OY4GRnl_400x400.jpg?1696521688"
+    },
+    {
+        "chainId": 42220,
+        "address": "0x74c0c58b99b68cf16a717279ac2d056a34ba2bfe",
+        "name": "ReSource Protocol",
+        "symbol": "SOURCE",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/20740/thumb/source.png?1696520138"
+    },
+    {
+        "chainId": 42220,
         "address": "0x918146359264c492bd6934071c6bd31c854edbc3",
         "name": "Moola Celo Dollars",
         "symbol": "MCUSD",
@@ -153,11 +145,19 @@
     },
     {
         "chainId": 42220,
-        "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
-        "name": "Celo Dollar",
-        "symbol": "CUSD",
+        "address": "0x00400fcbf0816bebb94654259de7273f4a05c762",
+        "name": "PoofCash",
+        "symbol": "POOF",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/13161/thumb/icon-celo-dollar-color-1000-circle-cropped.png?1696512945"
+        "logoURI": "https://assets.coingecko.com/coins/images/18076/thumb/android-icon-192x192_%282%29.png?1696517583"
+    },
+    {
+        "chainId": 42220,
+        "address": "0x7ff62f59e3e89ea34163ea1458eebcc81177cfb6",
+        "name": "MENTO",
+        "symbol": "MENTO",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/38958/thumb/MENTO_TOKEN_icon_200.png?1719691251"
     },
     {
         "chainId": 42220,

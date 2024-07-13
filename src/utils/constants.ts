@@ -37,7 +37,9 @@ export const sushiswapV2Routers: {[key in ChainName]: string} = {
     Mantle:   '',
     Gnosis:   '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
     Fantom:   '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
-    Celo:     '0x1421bDe4B10e8dd459b3BCb598810B1337D56842', // router exists, butthey have no WTOKEN. No idea why..
+    // TODO: unknown contract
+    // Celo:     '0x1421bDe4B10e8dd459b3BCb598810B1337D56842', // router exists, butthey have no WTOKEN. No idea why..
+    Celo: '',
     Core:     '0x9B3336186a38E1b6c21955d112dbb0343Ee061eE',
     Manta:    '',
     Taiko:    '',

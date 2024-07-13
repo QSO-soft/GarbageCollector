@@ -1,34 +1,11 @@
 [
     {
         "chainId": 5000,
-        "address": "0x201eba5cc46d216ce6dc03f6a759e8e766e956ae",
-        "name": "Mantle Bridged USDT  Mantle ",
-        "symbol": "USDT",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/35069/thumb/logo.png?1707291114"
-    },
-    {
-        "chainId": 5000,
-        "address": "0xd2b4c9b0d70e3da1fbdd98f469bd02e77e12fc79",
-        "name": "Aurelius USD",
-        "symbol": "AUSD",
+        "address": "0x029d924928888697d3f3d169018d9d98d9f0d6b4",
+        "name": "Muito Finance",
+        "symbol": "MUTO",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/37318/thumb/aUSD.png?1713975421"
-    },
-    {
-        "chainId": 5000,
-        "address": "0xc1e0c8c30f251a07a894609616580ad2ceb547f2",
-        "name": "Cleopatra",
-        "symbol": "CLEO",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/34150/thumb/CLEO_token.png?1704190970"
-    },
-    {
-        "chainId": 5000,
-        "address": "0xab575258d37eaa5c8956efabe71f4ee8f6397cf3",
-        "name": "Mantle USD",
-        "symbol": "MUSD",
-        "decimals": 18
+        "logoURI": "https://assets.coingecko.com/coins/images/35954/thumb/200_200-3.png?1710251972"
     },
     {
         "chainId": 5000,
@@ -48,11 +25,27 @@
     },
     {
         "chainId": 5000,
-        "address": "0x029d924928888697d3f3d169018d9d98d9f0d6b4",
-        "name": "Muito Finance",
-        "symbol": "MUTO",
+        "address": "0xd2b4c9b0d70e3da1fbdd98f469bd02e77e12fc79",
+        "name": "Aurelius USD",
+        "symbol": "AUSD",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/35954/thumb/200_200-3.png?1710251972"
+        "logoURI": "https://assets.coingecko.com/coins/images/37318/thumb/aUSD.png?1713975421"
+    },
+    {
+        "chainId": 5000,
+        "address": "0x201eba5cc46d216ce6dc03f6a759e8e766e956ae",
+        "name": "Mantle Bridged USDT  Mantle ",
+        "symbol": "USDT",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/35069/thumb/logo.png?1707291114"
+    },
+    {
+        "chainId": 5000,
+        "address": "0x51cfe5b1e764dc253f4c8c1f19a081ff4c3517ed",
+        "name": "Mantle Inu",
+        "symbol": "MINU",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/31014/thumb/mantle-inu.jpeg?1696529851"
     },
     {
         "chainId": 5000,
@@ -64,11 +57,26 @@
     },
     {
         "chainId": 5000,
-        "address": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead1111",
-        "name": "Wrapped Ether  Mantle Bridge ",
-        "symbol": "WETH",
+        "address": "0xc1e0c8c30f251a07a894609616580ad2ceb547f2",
+        "name": "Cleopatra",
+        "symbol": "CLEO",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/31013/thumb/wrapped-eth-mantle-bridge.png?1696529850"
+        "logoURI": "https://assets.coingecko.com/coins/images/34150/thumb/CLEO_token.png?1704190970"
+    },
+    {
+        "chainId": 5000,
+        "address": "0xab575258d37eaa5c8956efabe71f4ee8f6397cf3",
+        "name": "Mantle USD",
+        "symbol": "MUSD",
+        "decimals": 18
+    },
+    {
+        "chainId": 5000,
+        "address": "0x4b7f28397b4294277e7825f224172944f4f5a877",
+        "name": "IntentX",
+        "symbol": "INTX",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/38241/thumb/PFP_IX_2.png?1716881240"
     },
     {
         "chainId": 5000,
@@ -80,11 +88,11 @@
     },
     {
         "chainId": 5000,
-        "address": "0x51cfe5b1e764dc253f4c8c1f19a081ff4c3517ed",
-        "name": "Mantle Inu",
-        "symbol": "MINU",
+        "address": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead1111",
+        "name": "Wrapped Ether  Mantle Bridge ",
+        "symbol": "WETH",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/31014/thumb/mantle-inu.jpeg?1696529851"
+        "logoURI": "https://assets.coingecko.com/coins/images/31013/thumb/wrapped-eth-mantle-bridge.png?1696529850"
     },
     {
         "chainId": 5000,

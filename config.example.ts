@@ -9,6 +9,8 @@ export const goodGwei = 5
 export const sleepBetweenActions = {from: 5, to: 60} // secs
 export const sleepBetweenAccs = {from: 5 * 60, to: 15 * 60} // secs
 
+export const minBalanceToSaveInCsv = 0.03
+
 /**
  * THIS MODULE SWAPS ALL SHITCOINS INTO NATIVE COIN
  * First ODOS aggregator is used
