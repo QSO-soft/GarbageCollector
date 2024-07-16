@@ -13,7 +13,7 @@ export const saveBalanceCheckerDataToCSV = async <T extends object>({data}: Save
 
     let addressAlreadyExists = false
     const resData = prevData.reduce<Object[]>((acc, cur) => {
-        if ('address' in cur && 'address' in data && 'network' in cur && 'network' in data && data.address === cur.address) {
+        if ('address' in cur && 'address' in data && data.address === cur.address) {
             addressAlreadyExists = true
             return [
                 ...acc,
@@ -24,7 +24,7 @@ export const saveBalanceCheckerDataToCSV = async <T extends object>({data}: Save
             ]
         }
 
-        return acc
+        return [...acc, cur]
     }, [])
 
     const sortedArray = (addressAlreadyExists ? resData : [...resData, data]).sort((firstItem, secondItem) => {

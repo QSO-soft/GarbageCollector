@@ -9,19 +9,19 @@
     },
     {
         "chainId": 5000,
-        "address": "0xabbeed1d173541e0546b38b1c0394975be200000",
-        "name": "Slash Vision Labs",
-        "symbol": "SVL",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/37444/thumb/svl.jpeg?1714443652"
-    },
-    {
-        "chainId": 5000,
         "address": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
         "name": "Mantle Bridged USDC  Mantle ",
         "symbol": "USDC",
         "decimals": 6,
         "logoURI": "https://assets.coingecko.com/coins/images/35296/thumb/USDC_Icon.png?1708082083"
+    },
+    {
+        "chainId": 5000,
+        "address": "0x4b7f28397b4294277e7825f224172944f4f5a877",
+        "name": "IntentX",
+        "symbol": "INTX",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/38241/thumb/PFP_IX_2.png?1716881240"
     },
     {
         "chainId": 5000,
@@ -33,19 +33,27 @@
     },
     {
         "chainId": 5000,
-        "address": "0x201eba5cc46d216ce6dc03f6a759e8e766e956ae",
-        "name": "Mantle Bridged USDT  Mantle ",
-        "symbol": "USDT",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/35069/thumb/logo.png?1707291114"
-    },
-    {
-        "chainId": 5000,
         "address": "0x51cfe5b1e764dc253f4c8c1f19a081ff4c3517ed",
         "name": "Mantle Inu",
         "symbol": "MINU",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/31014/thumb/mantle-inu.jpeg?1696529851"
+    },
+    {
+        "chainId": 5000,
+        "address": "0xabbeed1d173541e0546b38b1c0394975be200000",
+        "name": "Slash Vision Labs",
+        "symbol": "SVL",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/37444/thumb/svl.jpeg?1714443652"
+    },
+    {
+        "chainId": 5000,
+        "address": "0x201eba5cc46d216ce6dc03f6a759e8e766e956ae",
+        "name": "Mantle Bridged USDT  Mantle ",
+        "symbol": "USDT",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/35069/thumb/logo.png?1707291114"
     },
     {
         "chainId": 5000,
@@ -57,14 +65,6 @@
     },
     {
         "chainId": 5000,
-        "address": "0xc1e0c8c30f251a07a894609616580ad2ceb547f2",
-        "name": "Cleopatra",
-        "symbol": "CLEO",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/34150/thumb/CLEO_token.png?1704190970"
-    },
-    {
-        "chainId": 5000,
         "address": "0xab575258d37eaa5c8956efabe71f4ee8f6397cf3",
         "name": "Mantle USD",
         "symbol": "MUSD",
@@ -72,11 +72,11 @@
     },
     {
         "chainId": 5000,
-        "address": "0x4b7f28397b4294277e7825f224172944f4f5a877",
-        "name": "IntentX",
-        "symbol": "INTX",
+        "address": "0xc1e0c8c30f251a07a894609616580ad2ceb547f2",
+        "name": "Cleopatra",
+        "symbol": "CLEO",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/38241/thumb/PFP_IX_2.png?1716881240"
+        "logoURI": "https://assets.coingecko.com/coins/images/34150/thumb/CLEO_token.png?1704190970"
     },
     {
         "chainId": 5000,
@@ -141,6 +141,22 @@
         "symbol": "MINTY",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/29455/thumb/MINTY.png?1706817774"
+    },
+    {
+        "chainId": 5000,
+        "address": "0x62a509ba95c75cabc7190469025e5abee4eddb2a",
+        "name": "Davos xyz USD",
+        "symbol": "DUSD",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/28775/thumb/dusd_logo_200x200.png?1696527754"
+    },
+    {
+        "chainId": 5000,
+        "address": "0xc96de26018a54d51c097160568752c4e3bd6c364",
+        "name": "Ignition FBTC",
+        "symbol": "FBTC",
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/39182/thumb/FBTC_LOGO.png?1720850455"
     },
     {
         "chainId": 5000,

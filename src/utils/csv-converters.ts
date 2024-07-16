@@ -15,7 +15,7 @@ interface ConvertAndWriteToJson {
 export const convertAndWriteToJSON = async ({inputPath, outputPath, withSaving}: ConvertAndWriteToJson) => {
     const jsonArray: object[] = []
 
-    console.log(`Reading from ${inputPath}...`)
+    // console.log(`Reading from ${inputPath}...`)
 
     await csvtojson()
         .fromFile(inputPath)

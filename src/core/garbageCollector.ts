@@ -176,6 +176,7 @@ class GarbageCollector extends GarbageCollectorConfig {
 
         let nonzeroTokenData = await Multicall.getTokenInfo(nonzeroTokens.map((elem) => elem.token))
         let nonzeroTokenList: {address: string; name: string; symbol: string; decimals: bigint; balance: bigint}[] = []
+
         // could be done better lol
         for (let i = 0; i < nonzeroTokenData.length; i++) {
             nonzeroTokenList.push({
@@ -204,7 +205,11 @@ class GarbageCollector extends GarbageCollectorConfig {
             nativeBalance = 0
             nativePrice = 0
         }
+
+        nonzeroTokenList = nonzeroTokenList.filter(({symbol}) => symbol !== chains[networkName].currency.name)
         console.log(c.cyan.bold(networkName), c.yellow(`found ${nonzeroTokenList.length} nonzero tokens`))
+
+        let totalValue = 0
         {
             let nameOffset = 35 - 'Native'.length < 0 ? 0 : 35 - 'Native'.length
             let nameText = 'Native' + ' '.repeat(nameOffset)
@@ -227,15 +232,17 @@ class GarbageCollector extends GarbageCollectorConfig {
             console.log(c.blue.bold(`   ${nameText} ${symbolText} ${amount} ${priceText} USD`))
 
             if (price !== '???' && +price > 0) {
+                totalValue += +price
+
                 await saveBalanceCheckerDataToCSV({
                     data: {
                         address: this.signer.address,
-                        network: networkName,
-                        [chains[networkName].currency.name]: price
+                        [`${networkName}-${chains[networkName].currency.name}`]: price
                     }
                 })
             }
         }
+
         let networkValue = 0
         for (let nonzeroToken of nonzeroTokenList) {
             let nameOffset = 35 - nonzeroToken.name.length < 0 ? 0 : 35 - nonzeroToken.name.length
@@ -254,23 +261,24 @@ class GarbageCollector extends GarbageCollectorConfig {
                 await saveBalanceCheckerDataToCSV({
                     data: {
                         address: this.signer.address,
-                        network: networkName,
-                        [nonzeroToken.symbol]: price
+                        [`${networkName}-${nonzeroToken.symbol}`]: price
                     }
                 })
             }
             networkValue += parseFloat(price)
         }
+        totalValue += networkValue
+
         let networkValueText = `network value: ${networkValue.toFixed(2)} USD`
         // 71 -- whole paste's length built above
         let networkValueOffset = 71 - networkValueText.length < 0 ? 0 : 71 - networkValueText.length
         console.log(c.magenta.bold(' '.repeat(networkValueOffset) + networkValueText))
-        if (+networkValue > 0) {
+
+        if (totalValue > 0) {
             await saveBalanceCheckerDataToCSV({
                 data: {
                     address: this.signer.address,
-                    network: networkName,
-                    Total: networkValue
+                    [`${networkName}-total`]: totalValue
                 }
             })
         }

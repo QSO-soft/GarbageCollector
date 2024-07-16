@@ -1,11 +1,43 @@
 [
     {
         "chainId": 100,
-        "address": "0x4291f029b9e7acb02d49428458cf6fceac545f81",
-        "name": "1Hive Water",
-        "symbol": "WATER",
+        "address": "0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce",
+        "name": "RealToken Ecosystem Governance",
+        "symbol": "REG",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/26089/thumb/water_logo.png?1696525180"
+        "logoURI": "https://assets.coingecko.com/coins/images/37785/thumb/realt.jpeg?1715586329"
+    },
+    {
+        "chainId": 100,
+        "address": "0x6c76971f98945ae98dd7d4dfca8711ebea946ea6",
+        "name": "Bridged Wrapped stETH  Gnosis ",
+        "symbol": "WSTETH",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/33017/thumb/wStETH.png?1700190250"
+    },
+    {
+        "chainId": 100,
+        "address": "0x2a22f9c3b484c3629090feed35f17ff8f88f76f0",
+        "name": "Gnosis xDAI Bridged USDC  Gnosis ",
+        "symbol": "USDCE",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/38775/thumb/USDC_Icon.webp?1718798033"
+    },
+    {
+        "chainId": 100,
+        "address": "0x54e4cb2a4fa0ee46e3d9a98d13bea119666e09f6",
+        "name": "Gnosis Bridged EURC  Gnosis ",
+        "symbol": "EURC",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/36068/thumb/EURC_Icon.png?1710406183"
+    },
+    {
+        "chainId": 100,
+        "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
+        "name": "Gnosis xDAI Bridged USDC  Gnosis ",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/35300/thumb/USDC_Icon.png?1708083625"
     },
     {
         "chainId": 100,
@@ -14,14 +46,6 @@
         "symbol": "STABAL3",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/32112/thumb/bal3.png?1696561317"
-    },
-    {
-        "chainId": 100,
-        "address": "0x63e62989d9eb2d37dfdb1f93a22f063635b07d51",
-        "name": "Minerva Wallet",
-        "symbol": "MIVA",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/14732/thumb/MIVA-Token_200x200.png?1696514401"
     },
     {
         "chainId": 100,
@@ -41,27 +65,11 @@
     },
     {
         "chainId": 100,
-        "address": "0xb5d592f85ab2d955c25720ebe6ff8d4d1e1be300",
-        "name": "Particle",
-        "symbol": "PRTCLE",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/14395/thumb/unknown.png?1696514085"
-    },
-    {
-        "chainId": 100,
         "address": "0x1a8805194d0ef2f73045a00c70da399d9e74221c",
         "name": "Gnobby",
         "symbol": "GNOBBY",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/38320/thumb/gnobby.png?1717054243"
-    },
-    {
-        "chainId": 100,
-        "address": "0x38fb649ad3d6ba1113be5f57b927053e97fc5bf7",
-        "name": "xDai Native Comb",
-        "symbol": "XCOMB",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/16012/thumb/logo.png?1696515623"
     },
     {
         "chainId": 100,
@@ -73,6 +81,38 @@
     },
     {
         "chainId": 100,
+        "address": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
+        "name": "XDAI",
+        "symbol": "XDAI",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/11062/thumb/Identity-Primary-DarkBG.png?1696511004"
+    },
+    {
+        "chainId": 100,
+        "address": "0xb5d592f85ab2d955c25720ebe6ff8d4d1e1be300",
+        "name": "Particle",
+        "symbol": "PRTCLE",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/14395/thumb/unknown.png?1696514085"
+    },
+    {
+        "chainId": 100,
+        "address": "0x63e62989d9eb2d37dfdb1f93a22f063635b07d51",
+        "name": "Minerva Wallet",
+        "symbol": "MIVA",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/14732/thumb/MIVA-Token_200x200.png?1696514401"
+    },
+    {
+        "chainId": 100,
+        "address": "0x4291f029b9e7acb02d49428458cf6fceac545f81",
+        "name": "1Hive Water",
+        "symbol": "WATER",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/26089/thumb/water_logo.png?1696525180"
+    },
+    {
+        "chainId": 100,
         "address": "0x3a97704a1b25f08aa230ae53b352e2e72ef52843",
         "name": "Agave",
         "symbol": "AGVE",
@@ -81,19 +121,11 @@
     },
     {
         "chainId": 100,
-        "address": "0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce",
-        "name": "RealToken Ecosystem Governance",
-        "symbol": "REG",
+        "address": "0x38fb649ad3d6ba1113be5f57b927053e97fc5bf7",
+        "name": "xDai Native Comb",
+        "symbol": "XCOMB",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/37785/thumb/realt.jpeg?1715586329"
-    },
-    {
-        "chainId": 100,
-        "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
-        "name": "Gnosis xDAI Bridged USDC  Gnosis ",
-        "symbol": "USDC",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/35300/thumb/USDC_Icon.png?1708083625"
+        "logoURI": "https://assets.coingecko.com/coins/images/16012/thumb/logo.png?1696515623"
     },
     {
         "chainId": 100,
@@ -113,30 +145,6 @@
     },
     {
         "chainId": 100,
-        "address": "0x54e4cb2a4fa0ee46e3d9a98d13bea119666e09f6",
-        "name": "Gnosis Bridged EURC  Gnosis ",
-        "symbol": "EURC",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/36068/thumb/EURC_Icon.png?1710406183"
-    },
-    {
-        "chainId": 100,
-        "address": "0x2a22f9c3b484c3629090feed35f17ff8f88f76f0",
-        "name": "Gnosis xDAI Bridged USDC  Gnosis ",
-        "symbol": "USDCE",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/38775/thumb/USDC_Icon.webp?1718798033"
-    },
-    {
-        "chainId": 100,
-        "address": "0x6c76971f98945ae98dd7d4dfca8711ebea946ea6",
-        "name": "Bridged Wrapped stETH  Gnosis ",
-        "symbol": "WSTETH",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/33017/thumb/wStETH.png?1700190250"
-    },
-    {
-        "chainId": 100,
         "address": "0x3a3e9715018d80916740e8ac300713fdf6614d19",
         "name": "hiveWater",
         "symbol": "HIVEWATER",
@@ -150,14 +158,6 @@
         "symbol": "AGNO",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/32928/thumb/gno.png?1699826574"
-    },
-    {
-        "chainId": 100,
-        "address": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
-        "name": "XDAI",
-        "symbol": "XDAI",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/11062/thumb/Identity-Primary-DarkBG.png?1696511004"
     },
     {
         "chainId": 100,
@@ -261,7 +261,7 @@
         "name": "crvUSD",
         "symbol": "CRVUSD",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/30118/thumb/crvusd.jpeg?1696529040"
+        "logoURI": "https://assets.coingecko.com/coins/images/30118/thumb/0xf939e0a03fb07f59a73314e73794be0e57ac1b4e.png?1721097561"
     },
     {
         "chainId": 100,
