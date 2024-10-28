@@ -77,6 +77,7 @@ async function checkConnection(proxy?: string) {
         let resp = await session.get('https://api.odos.xyz/info/chains')
         return true
     } catch (e: any) {
+        console.log(`Unable to check proxy connection: ${e.message}`)
         return false
     }
 }
